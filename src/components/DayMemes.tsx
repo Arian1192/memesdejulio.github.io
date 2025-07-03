@@ -253,7 +253,7 @@ const DayMemes: React.FC<DayMemesProps> = ({ date, onBack, onDateChange }) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500 p-4">
       <style>{sliderStyles}</style>
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto mt-4">
         {/* Mobile: Back button at top */}
         <div className="block lg:hidden mb-4">
           <Button

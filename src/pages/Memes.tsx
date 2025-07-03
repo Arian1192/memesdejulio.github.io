@@ -185,8 +185,8 @@ const Memes = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500 p-4 flex items-center justify-center">
-      <div className="w-full max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500  p-4 flex items-center justify-center">
+      <div className="w-full mt-2 max-w-7xl mx-auto">
         <div className="text-center mb-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
             Memes de Julio

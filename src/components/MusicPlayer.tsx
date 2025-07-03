@@ -180,7 +180,7 @@ export const MusicPlayer = ({ song }: { song: ISong }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-4 mb-4">
+      <div className="flex justify-center mt-4 mb-5">
         <button
           ref={toggleButtonRef}
           onClick={() => setIsOpen(!isOpen)}
