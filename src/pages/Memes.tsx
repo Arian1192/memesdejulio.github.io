@@ -1,5 +1,4 @@
 import DayMemes from "@/components/DayMemes";
-import { MusicPlayer } from "@/components/MusicPlayer";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import {
@@ -185,18 +184,9 @@ const Memes = () => {
     );
   }
 
-  const song = {
-    title: "Song Title",
-    artist: "Artist Name",
-    image:
-      "https://imgs.search.brave.com/M5uV55Hwiten4Cx7zEIZAom6CieSnDRFniTFFdMbZjk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmt5/bS1jZG4uY29tL2Vu/dHJpZXMvaWNvbnMv/ZmFjZWJvb2svMDAw/LzA1NC82MTgvYWI2/NzYxNjEwMDAwNTE3/NGViMjZiMzk3Y2Zj/MWQ1Yjc4NTI5NmNk/ZC5qcGc",
-    audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500 p-4 flex items-center justify-center">
       <div className="w-full max-w-7xl mx-auto">
-        <MusicPlayer song={song} />
         <div className="text-center mb-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
             Memes de Julio
